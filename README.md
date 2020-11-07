@@ -2,9 +2,11 @@
 
 ## [Classifying korean sentence](https://github.com/GwonHJ/NLP/tree/master/Classifying%20korean%20sentence) : KoNLPy, nltk, and Keras를 이용하여 한국어 문장 감정 분석
 
-train 데이터 : https://aihub.or.kr/keti_data_board/language_intelligence 에서 한국어 감정 정보가 포함된 단발성 데이터셋
+#### 데이터 출처
 
-test 데이터 : https://aihub.or.kr/keti_data_board/language_intelligence 에서 한국어 감정 정보가 포함된 연속적 데이터셋
+  train 데이터 : https://aihub.or.kr/keti_data_board/language_intelligence 에서 한국어 감정 정보가 포함된 단발성 데이터셋
+
+  test 데이터 : https://aihub.or.kr/keti_data_board/language_intelligence 에서 한국어 감정 정보가 포함된 연속적 데이터셋
 
 
 [Keras] KoNLPy를 이용한 한국어 영화 리뷰 감정 분석를 보고 변형하여 만들었습니다.
