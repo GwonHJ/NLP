@@ -18,6 +18,8 @@ https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
 감정분류
 https://wikidocs.net/22933
 참고
+
+
 -------------------------------------------------------------------------------------
 
 
