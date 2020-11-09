@@ -20,3 +20,7 @@ https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
   
 링크에서는 데이터셋이 txt 파일이기 때문에 그 전 과정이 조금 다름.
 
+
+- [train.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/train.py) : train데이터셋을 형태소 분석하여 json파일로 만들기
+- [test.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/test.py) : test데이터셋을 형태소 분석하여 json파일로 만들기
+- [after_json.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/after_json.py) : json파일을 가지고 전처리 및 훈련
