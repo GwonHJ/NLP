@@ -2,7 +2,7 @@
 
 ## [Classifying korean sentence](https://github.com/GwonHJ/NLP/tree/master/Classifying%20korean%20sentence) : 한국어 문장 감정 분석
 
-: KoLPy, Keras, LSTM등을 이용하여 한국어 문장에 대한 감정 7개를 분류
+: KoLPy, Keras, LSTM등을 이용하여 한국어 문장에 대한 감정을 분류
 
 #### 데이터 출처
 
