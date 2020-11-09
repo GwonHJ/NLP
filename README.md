@@ -1,8 +1,13 @@
 # NLP
 
+
+
 ## [Classifying korean sentence](https://github.com/GwonHJ/NLP/tree/master/Classifying%20korean%20sentence) : 한국어 문장 감정 분석
 
-: KoLPy, Keras, LSTM등을 이용하여 한국어 문장에 대한 감정을 분류
+
+꿈꾸는 아이 대회 https://dacon.io/competitions/official/235664/codeshare/ 출전을 위해서 자연어처리 챗봇 개발 프로젝트
+
+맡은 역할 : KoLPy, Keras, LSTM등을 이용하여 한국어 문장에 대한 감정을 분류
 
 ### 자세한 내용은 해당 폴더의 README.md 참고
 
