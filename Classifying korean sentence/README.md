@@ -24,3 +24,38 @@ https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
 - [train.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/train.py) : train데이터셋을 형태소 분석하여 json파일로 만들기
 - [test.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/test.py) : test데이터셋을 형태소 분석하여 json파일로 만들기
 - [after_json.py](https://github.com/GwonHJ/NLP/blob/master/Classifying%20korean%20sentence/after_json.py) : json파일을 가지고 전처리 및 훈련
+
+
+<위에 참고한 링크와 다른 부분 설명 : cvs파일을 json파일로 만드는 과정>
+
+```python
+
+data=pd.read_csv('onlybinary_data.csv', sep=",")
+
+#print(data.head()) 출력확인
+##print(len(data)) 크기확인
+##print(type(data)) 타입확인
+
+
+train_data = pd.DataFrame(data, columns=['Sentence','Emotion'])
+
+#json에 넣기 위해서 after_data에 담아줌
+after_data = []
+
+for index in range(len(train_data)):
+    okt = Okt()
+    ##실행이 잘 되고 있는지 확인용
+    if index%50 ==0:
+        print(index)
+        
+    def tokenize(doc):
+        # norm은 정규화, stem은 근어로 표시하기를 나타냄
+        return ['/'.join(t) for t in okt.pos(doc, norm=True, stem=True)] 
+
+    tokens= tokenize(train_data['Sentence'][index])    
+    feeling=train_data['Emotion'][index]
+    feeling=int(feeling)
+    ##json파일 형태가 [[단어/형태소, 단어/형태소, ..., 단어/형태],[감정]] 이런 형태가 되어야 하기 때문에 [[tokens, feeling]] 
+    after_data = after_data + [[tokens,feeling]]
+
+```
