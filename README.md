@@ -17,7 +17,7 @@
  
 데이터 전처리 및 분류
 https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
-참고
+를 참고하여 만들었습니다.
 
 
 
