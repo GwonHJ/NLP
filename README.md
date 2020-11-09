@@ -4,6 +4,8 @@
 
 : KoLPy, Keras, LSTM등을 이용하여 한국어 문장에 대한 감정을 분류
 
+### 자세한 내용은 해당 폴더의 README.md 참고
+
 #### 데이터 출처
 
   - train 데이터 : https://aihub.or.kr/keti_data_board/language_intelligence 에서 한국어 감정 정보가 포함된 단발성 데이터셋
@@ -17,7 +19,7 @@
 https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
 참고
 
-자세한 내용은 해당 폴더의 README.md 참고
+
 
 
 -------------------------------------------------------------------------------------
