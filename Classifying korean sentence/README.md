@@ -59,3 +59,19 @@ for index in range(len(train_data)):
     after_data = after_data + [[tokens,feeling]]
 
 ```
+
+### 형태소 분석후 빈수가 높은 단어 50개를 그래프로 나타낸것(Test)
+
+![형태소분석후빈도수상위50개](https://user-images.githubusercontent.com/45057466/98559748-59402600-22ea-11eb-8e7c-c7a630b4b1c5.png)
+
+
+### 결과
+![KakaoTalk_20201109_200511936](https://user-images.githubusercontent.com/45057466/98559780-6230f780-22ea-11eb-9bf0-77d1834f79df.png)
+
+
+### 아쉬운점 
+  1. dataset의 감정분류가 어떻게 분류된것인지 몰라서 적절하지 않은 경우도 있다. 
+  2. 데이터셋이 부족하다.
+  3. 데이터셋이 무작위로 크롤링한 데이터 같아서 경연대회에 참가할 챗봇용 데이터에는 적합하지 않아보인다....
+  
+### 목표 : 13일까지 더 많은 데이터셋으로 정확도 90프로까지 만들기
