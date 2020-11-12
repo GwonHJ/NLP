@@ -31,6 +31,9 @@ https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
 
 PyQt를 이용하여 만든 챗봇 UI
 
+#### 실행화면
+
+![KakaoTalk_20201112_160735705](https://user-images.githubusercontent.com/45057466/98907315-fa54f980-2501-11eb-9d0a-6c5313c5b3a3.png)
 
 https://wikidocs.net/book/2944
 를 참고하여 만들었습니다.
