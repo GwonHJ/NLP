@@ -31,11 +31,13 @@ https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
 
 PyQt를 이용하여 만든 챗봇 UI
 
+Qt Designer를 이용해서 레이아웃을 만들었습니다.(.ui파일)
+
 #### 실행화면
 
 ![KakaoTalk_20201112_160735705](https://user-images.githubusercontent.com/45057466/98907315-fa54f980-2501-11eb-9d0a-6c5313c5b3a3.png)
 
-아직 챗봇모델과 연결하지 않은 상태
+아직 챗봇모델과 연결하지 않은 상태라서 크누아이가 안녕만 답하고 있습니다.
 
 https://wikidocs.net/book/2944
 를 참고하여 만들었습니다.
