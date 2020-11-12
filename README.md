@@ -35,6 +35,8 @@ PyQt를 이용하여 만든 챗봇 UI
 
 ![KakaoTalk_20201112_160735705](https://user-images.githubusercontent.com/45057466/98907315-fa54f980-2501-11eb-9d0a-6c5313c5b3a3.png)
 
+아직 챗봇모델과 연결하지 않은 상태
+
 https://wikidocs.net/book/2944
 를 참고하여 만들었습니다.
 
