@@ -60,7 +60,7 @@ for index in range(len(train_data)):
 
 ```
 
-### 형태소 분석후 빈수가 높은 단어 50개를 그래프로 나타낸것(Test)
+### 형태소 분석후 빈수가 높은 단어 50개를 그래프로 나타낸것(Train_data에서)
 
 ![형태소분석후빈도수상위50개](https://user-images.githubusercontent.com/45057466/98559748-59402600-22ea-11eb-8e7c-c7a630b4b1c5.png)
 
