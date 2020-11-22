@@ -1,5 +1,54 @@
 # NLP
 
+## classification.py
+
+감정 3가지로 분류하기
+
+
+부정 : 공포, 슬픔, 혐오
+
+중립 : 중립
+
+긍정 : 놀람, 행복
+
+
+LSTM이용
+
+데이터셋 : 단발성
+max_word : 25000
+테스트 데이터셋 : 30%
+임베딩 : maxword, 256
+lstm : 256
+batch_size : 500
+
+best model : epoch2 정확도 0.67001
+
+ -> 과적합, 정확도 낮은 문제
+ 
+
+데이터셋을 늘렸음
+
+
+데이터셋 : 단발성 + 연속성
+maxword : 25000
+테스트 데이터셋 : 30%
+임베딩 : maxword, 256
+lstm : 256
+batch_size : 500
+best model2 : epoch2 정확도 0.7285
+
+
+데이터셋 : 단발성 + 연속성
+maxword : 25000
+테스트 데이터셋 : 30%
+임베딩 : maxword, 128
+lstm : 128
+batch_size : 500
+best model2 : epoch2 정확도 0.7307
+
+
+해볼것 : 과적합 문제 해결을 위한 드롭아웃 해보기...해보고 안되면...그때 생각해보기...
+
 
 
 ## [Classifying korean sentence](https://github.com/GwonHJ/NLP/tree/master/Classifying%20korean%20sentence) : 한국어 문장 감정 분석
